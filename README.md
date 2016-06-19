@@ -2,6 +2,7 @@ Ethereum Ionic (v2)
 ===================
 
 An example project which demonstrates the use Ionic v2 (javascript) with Web3 as service.
+Most important part: [app/providers/web-3-service/web-3-service.js](app/providers/web-3-service/web-3-service.js)
 
 - ionic: http://ionicframework.com/docs/v2/
 - Web3: https://github.com/ethereum/wiki/wiki/JavaScript-API
