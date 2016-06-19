@@ -1,0 +1,18 @@
+<!--
+  Generated template for the DebugPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-navbar *navbar>
+  <ion-title>Debug</ion-title>
+</ion-navbar>
+
+<ion-content class="debug">
+  <ion-list>
+  <ion-item  *ngFor="let v of showValues">
+    <h2>{{ v }}</h2>
+    <p>{{ getValue(v) }}</p>
+  </ion-item>
+</ion-list>
+</ion-content>

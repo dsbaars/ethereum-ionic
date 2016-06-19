@@ -1,0 +1,9 @@
+<ion-navbar *navbar>
+  <ion-title>Home</ion-title>
+</ion-navbar>
+
+<ion-content padding class="page1">
+  <h2>Welcome to ethereum-ionic demo!</h2>
+    <pre>Web3 API: {{ web3.version.api|json }} </pre>
+    <pre>Web3 is connected?: {{ web3.isConnected() }} </pre>
+</ion-content>
